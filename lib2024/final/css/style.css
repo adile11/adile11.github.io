@@ -1,0 +1,96 @@
+@charset "utf-8" ;
+* {
+	margin: 0;
+	padding: 0;
+}
+/*Mobile*/
+/*.col-main, .col-footer img {
+	width: 100%;
+}*/
+
+body {
+	width: 1024px;
+	height: 1450px;
+}
+
+.logo {
+	font-family: "CooperHewitt-Heavy";
+	color: #72a9ae ;
+}
+.logo{
+	margin-left: 40px;
+	padding: 20px;
+}
+.title {
+	color: #72a9ae;
+}
+.logo-container {
+
+
+}
+
+.main {
+	background-image: url(../img/dynamic-style.webp);
+}
+
+
+.footer {
+	background-color: #454545;
+}
+.logo-container {
+	background-color: #ffffff;
+	width: 100%;
+	height: 110px;
+}
+.main-navigation {
+	width: 100%;
+	height: 40px;
+	background-color: #72a9ae;
+}
+.main-navigation ul {
+	margin-left: 40px;
+}
+.main-navigation ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 40px;
+	padding: 0 20px;
+}
+.main-navigation ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: CooperHewitt-Heavy;
+}
+.main-navigation ul li a:hover {
+	color: red;
+}
+.hamburger {
+	float: right;
+}
+.hamburger {
+	height: 15px;
+	margin: 15px;
+	padding-top: 5px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+}
+.hamburger, .hamburger:before, .hamburger:after {
+	width: 30px;
+	border-top: 5px solid black;
+}
+.hamburger:before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: black;
+}
+.hamburger:after {
+	content: "";
+	display: block;
+	background: black;
+	position: absolute;
+	bottom: 0;
+}
